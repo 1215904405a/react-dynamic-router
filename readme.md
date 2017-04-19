@@ -1,5 +1,5 @@
-# react-dynamic-router（动态路由）
-基于webpack + react + react-router + redux + less + sass + ES6
+# react-dynamic-router
+基于webpack + react + react-router（动态路由） + redux + less + sass + ES6
 
 
 ### 下载
