@@ -1,0 +1,38 @@
+@charset "utf-8";
+.about-us{
+	margin-top: -1.14rem;
+	padding-top: .88rem;
+    background: #fff;
+    height: 100%;
+    text-align: justify;
+    .title-icon{
+    	margin: auto;
+    	width: 4rem;
+    	height: 1.22rem;
+    	background: url("../images/common/logo_icon.png") no-repeat center;
+    	background-size: 100%;
+    }
+    .version,.copyright{
+    	margin: .34rem auto .6rem;
+    	color: #999;
+    	font-size: .28rem;
+    	text-align: center;
+    }
+    .copyright{
+    	position: relative;
+    	top: 3rem;
+        bottom: 1rem;
+    	left: 50%;
+		-webkit-transform: translate3d(-50%,0,0);
+	    transform: translate3d(-50%,0,0);    	
+    }
+    .content{
+    	padding: 0 15px;
+    	color: #333;
+    	font-size: .3rem;
+    	line-height: .52rem;
+    	p{
+    		text-indent: .6rem;
+    	}
+    }
+}

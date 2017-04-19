@@ -1,0 +1,123 @@
+.setBill {
+	font-size: .28rem;
+}
+.setBill .route-div {
+	padding-top: .96rem;
+}
+
+.setBill .fptype {
+	background: #fff;
+	height: 1.7rem;
+	padding-top: .2rem;
+	margin-top: .15rem;
+}
+
+.setBill .fptype1 { 
+	background: #fff;
+	height: 2.7rem;
+	padding-top: .2rem;
+	margin-top: .15rem;
+}
+
+.setBill .fptype .typediv {
+	height: 70%;
+	line-height: .7rem;
+	margin-top: .1rem;
+}
+
+.setBill .fptype1 .typediv1 {
+	height: 70%;
+	line-height: .7rem;
+	margin-top: .1rem;
+}
+
+.setBill .fptype .typediv a {
+	display: inline-block;
+	width: 30%;
+	height: 65%;
+	border: 1px solid grey;
+	border-radius: .1rem;
+	text-align: center;
+	margin: .1rem;
+	font-size: .28rem;
+}
+
+.setBill .fptype1 .typediv1 a {
+	display: inline-block;
+	width: 30%;
+	text-align: center;
+	margin: .1rem;
+}
+
+.setBill .fptype .typediv .active {
+	border: 1px solid #f60;
+	color: #f60;
+}
+
+.setBill .fptype  h3 {
+	margin-left: .1rem;
+}
+
+.setBill .fptype1  h3 {
+	margin-left: .1rem;
+}
+
+.setBill .typediv1 span {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: .14rem;
+}
+
+.setBill .typediv1 .checked {
+	width: .4rem;
+	height: .4rem;
+    /* background: #f60; */
+	border-radius: 50%;
+    /* border: solid 1px grey; */
+	background: url(../images/setbill/check@2x.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.setBill .typediv1 .unchecked {
+	width: .4rem;
+	height: .4rem;
+	background: #fff;
+	border-radius: 50%;
+	border: solid 1px grey;
+    /* background: url(uncheck@2x.png) no-repeat;
+	background-size: 100% 100%; */
+}
+
+.setBill .typediv1 p {
+	height: 60%;
+	text-align: center;
+}
+
+.setBill .typediv1 p input {
+	width: 95%;
+	height: 90%;
+	border-radius: .1rem;
+	border: solid 1px #DAD5D5;
+	font-size: .35rem;
+}
+
+.setBill .bootm {
+	border: 1px solid #d3d3d3;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 1.2rem;
+	width: 100%;
+	background: #fff;
+}
+
+.setBill .bootm a {
+	text-align: center;
+	width: 100%;
+	line-height: 1.2rem;
+	font-size: 24px;
+	display: inline-block;
+	float: left;
+	background: #f60;
+	color: #fff;
+}

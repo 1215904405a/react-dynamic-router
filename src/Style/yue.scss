@@ -1,0 +1,52 @@
+.yue-title{
+	padding: 0 .5rem;
+	white-space: nowrap;
+	text-overflow:ellipsis; 
+	overflow:hidden;
+}
+.yue{
+	.main{ overflow:hidden; background:#eee;font-size: .34rem}
+	input::-webkit-input-placeholder{color:#666;}
+	input:-moz-placeholder{color:#666;}
+	.addren{ background:#fff; width:100%;}
+	.addren ul li{ margin:0;overflow: hidden; border-bottom:1px solid #eee; padding-left:.07rem; color:#999; position:relative;}
+	.addren ul li input{ color:#333; border:none;padding:.30rem 0;width:100%; font-size:.32rem;}
+	.addren ul li:last-child{ border-bottom:none;}
+	.addren .identifyCode input, .addren .img-code input {
+	    float: left;
+	    margin-right: .2rem;
+	    width: 60%;
+	}
+	.chose{ 
+		position: absolute;
+		top: .38rem;
+		right: .15rem;
+		display: inline-block;
+		width: .24rem;
+	    height: .24rem;
+	    border-left: 1px solid #848689;
+	    border-bottom: 1px solid #848689;
+	    -webkit-transform: rotate(-135deg);
+	    transform: rotate(-135deg);
+	}
+	.addren ul{ margin:0 .2rem}
+	/*成功失败**/
+	.yue-but{ height:.86rem; line-height:.86rem; color:#fff; font-size:.36rem; text-align:center; margin:.3rem 3% ; width:93%; display:block; background:#ff6600; border-radius:3px;}
+	input[type=number] {-moz-appearance:textfield;}
+	input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button {-webkit-appearance: none;margin: 0;}
+	.img-code img {
+	    margin: .18rem 0;
+	    height: .6rem;
+	    border: 0;
+	}
+	.addren .identifyCode button {
+	    margin: .19rem 0;
+	    padding: 0 .12rem;
+	    height: .6rem;
+	    border: 0;
+	    background-color: #f60;
+	    color: #fff;
+	    border-radius: .04rem;
+	    font-size: .24rem;
+	}
+}

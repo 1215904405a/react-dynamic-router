@@ -1,0 +1,18 @@
+/* 
+* @Author: Marte
+* @Date:   2016-10-10 15:44:08
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-10-12 19:25:17
+*/
+.xieyi{
+    background: #FFFFFF;
+    margin-top: -.28rem;
+}
+.xieyi div:nth-child(2) {
+    padding: .2rem;
+}
+.xieyi p {
+    color: #656565;
+    font-size: .28rem;
+    line-height: .4rem;
+}
