@@ -17,6 +17,7 @@
     "url": "https://github.com/1340641314/react-cnode/issues"
   },
   "homepage": "https://github.com/1340641314/react-cnode#readme",
+  "keywords": "react dynamic router",
   "dependencies": {
     "iscroll": "^5.1.3",
     "obj-merged": "^1.0.5",
